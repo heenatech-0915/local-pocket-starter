@@ -36,7 +36,7 @@ function IndexMidSection() {
           <Col className={`${ styles.videoColumn2 } g-0}`} xs={12} lg={6}>
             <div className="player-wrapper">
               <ReactPlayer
-                url='video.mp4'
+                url="video/video.mp4"
                 className="react-player"
                 
                 
