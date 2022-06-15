@@ -21,7 +21,7 @@ function Index({ setShowDownloadModal }) {
             </Head>
 
             
-              
+               <body>
                
                  <motion.div
                 variants={TransitionAnimation}
@@ -38,7 +38,7 @@ function Index({ setShowDownloadModal }) {
 
                 </motion.div> 
 
-                
+                </body>
             
         </>
     )

@@ -2,7 +2,6 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
-import ReactPlayer from "react-player";
 
 
 // Styling.
@@ -34,15 +33,11 @@ function IndexMidSection() {
             </p>
           </Col>
           <Col className={`${ styles.videoColumn2 } g-0}`} xs={12} lg={6}>
-            <div className="player-wrapper">
-              <ReactPlayer
-                url="video/video.mp4"
-                className="react-player"
-                
-                
-              
-              />
-            </div>
+            
+            <video className="player-wrapper" controls style={{ width: '100%', height: '100%' }}>
+        <source src="/video.mp4#t=1.0" />
+      </video>
+            
           </Col>
         </Row>
         <Container fluid className={styles.visioncontainer}>

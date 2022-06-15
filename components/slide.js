@@ -5,6 +5,8 @@ import Button from 'react-bootstrap/Button';
 import IndexNavBar from '../components/indexNavBar'
 // Styling.
 import slidestyles from '../styles/slide.module.css'
+import Image from 'next/image'
+
 function Slide() {
     return (
         <>
@@ -21,8 +23,9 @@ Local Council and business owners</p>
                 <Button className={slidestyles.slideButton}>Download Now</Button>
                 </Col>
                 <Col  xs={12} lg={6}>
-                <img 
-                src="/slide_image_right.svg"
+                <Image  width="100%" height="100%" layout="responsive" objectFit="contain"
+        
+                src="/slide_image_right.png"
                 className={`${slidestyles.slideImage}  align-center`}
                 alt="Customer-insights"
               />

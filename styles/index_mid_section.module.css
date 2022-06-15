@@ -142,10 +142,7 @@
     color: #4f4f4f;
 }
 
-.player-wrapper {
-    width: 610px;
-    height: 391px;
-}
+
 
 .videoColumn {
     background-image: url("/video_bg.svg");
@@ -269,6 +266,9 @@ line-height: 30px;
     background-attachment: scroll;
     background-position-x: right;
     background-position-y: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
    
 
     }
