@@ -16,7 +16,7 @@ export default function IndexNavBar() {
     <Navbar className={styles.navbar} collapseOnSelect expand="lg"  variant="dark">
       <Container fluid className="px-4">
         <Navbar.Brand href="#home"><img
-        src="/logo.svg"
+        src="/logo_nav.svg" height="50px"
        
         className="d-inline-block align-top"
         alt="Local Pocket"
