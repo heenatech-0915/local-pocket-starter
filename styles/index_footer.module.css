@@ -1,0 +1,61 @@
+.footerContainer{
+    min-height:400px;
+}
+.textStyle1 {
+    font-family: 'Cerebri Sans Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+margin-top:10px;
+margin-left:20px;
+
+
+color: #000000;
+
+}
+.textStyle2 {
+
+    font-family: 'Cerebri Sans Regular';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 25px;
+
+color: #000000;
+
+
+
+}
+
+.textStyle3 {
+font-family: 'Cerebri Sans Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+
+color: rgba(0, 0, 0, 0.6);
+
+
+
+    
+}
+
+.textStyle3 a {
+
+    color: rgba(0, 0, 0, 0.6);
+
+}
+
+@media only screen and (max-width: 786px) { 
+    .textStyle2 {
+        padding-top:20px;
+
+    }
+
+}

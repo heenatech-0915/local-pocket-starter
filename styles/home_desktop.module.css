@@ -1,0 +1,186 @@
+.section1background {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    background-color: #84CDC1;
+    overflow: hidden;
+}
+
+.imageEdgeGradient {
+    height: 100vh;
+    width: 6vw;
+    background-image: linear-gradient(to right, #84CDC1, transparent);
+}
+
+.greenHalfBackground {
+    position: absolute;
+    height: 80vh;
+    max-height: 80vh;
+    width: 50vw;
+    max-width: 1000px;
+    margin-top: 50vh;
+    background-color: #84CDC1;
+    z-index: -10;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 200vh;
+    width: 50vw;
+    max-width: 1000px;
+}
+
+.greenTopHalfBackground {
+    width: 100vw;
+    height: 140vh;
+    background-image: linear-gradient(to right, #84CDC1, #AEE2D6, #84CDC1);
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section2Square {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    height: 25vw;
+    max-height: 400px;
+    width: 25vw;
+    max-width: 400px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #98DCCC;
+    border-radius: 20px;
+}
+
+.section3 {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: -2;
+}
+
+.gradientBackground {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, #84CDC1, #AEE2D6, #84CDC1);
+    z-index: -1;
+}
+
+.section4 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 100vw;
+    padding-top: 20vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    z-index: 2;
+}
+
+.vertical {
+    display: flex;
+    height: 95vh;
+    width: 12vw;
+    max-width: 250px;
+    background-color: #fff;
+}
+
+.horizontal {
+    display: flex;
+    height: 20vh;
+    width: 20vw;
+    background-color: #fff;
+}
+
+.section4Image {
+    max-height: 800px;
+    max-width: 400px;
+    margin-left: 0;
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.section4Text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    max-width: 450px;
+    min-width: 350px;
+}
+
+.signUp {
+    display: flex;
+    align-self: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.section5 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 30vh;
+}
+
+.section5Text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    max-width: 450px;
+    min-width: 350px;
+}
+
+.section5Image {
+    max-height: 700px;
+    max-width: 350px;
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 23vw;
+    max-height: 600px;
+    min-height: 400px;
+    width: 23vw;
+    max-width: 600px;
+    min-width: 400px;
+    margin-left: -180px;
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+.innerCircle {
+    display: flex;
+    height: 8vw;
+    max-height: 230px;
+    min-height: 120px;
+    width: 8vw;
+    max-width: 230px;
+    min-width: 120px;
+    background-color: #98DCCC;
+    border-radius: 100%;
+}

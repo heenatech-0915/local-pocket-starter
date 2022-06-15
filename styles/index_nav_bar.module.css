@@ -1,0 +1,56 @@
+.container{
+    width:100vw;
+   
+    
+}
+.navbar {
+    
+left: 0px;
+top: 0px;
+background: #57968B !important;
+
+
+}
+
+ .navlink {
+
+font-family: 'Poppins-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #ffffff !important;
+padding-right: 52px !important;
+display: flex; justify-content: center
+}
+
+
+.primaryButton {
+   
+    display: flex !important;
+flex-direction: column;
+align-items: center;
+
+
+vertical-align: center;
+Gap:8px;
+font-family: 'Cerebri Sans SemiBold';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+
+
+width: 167px;
+
+color:#57968B !important;
+
+background: #ffffff !important;
+border-radius: 24px !important;
+border-color:#FFFFFF !important;
+
+}
+
+@media only screen and (max-width: 786px) {
+
+}

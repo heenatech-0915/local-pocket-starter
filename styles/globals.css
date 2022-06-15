@@ -1,0 +1,297 @@
+@font-face {
+    font-family: 'Circular';
+    src: url('../fonts/circular-std-medium-500.ttf');
+}
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/arial-black.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('../fonts/poppins-regular.ttf');
+}
+
+@font-face {
+    font-family: 'Cerebri Sans Bold';
+    src: url('../fonts/CerebriSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Cerebri Sans Extra Bold';
+    src: url('../fonts/CerebriSans-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'Cerebri Sans Heavy';
+    src: url('../fonts/CerebriSans-Heavy.ttf');
+}
+
+@font-face {
+    font-family: 'Cerebri Sans Light';
+    src: url('../fonts/CerebriSans-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Cerebri Sans Medium';
+    src: url('../fonts/CerebriSans-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Cerebri Sans Regular';
+    src: url('../fonts/CerebriSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Cerebri Sans SemiBold';
+    src: url('../fonts/CerebriSans-SemiBold.ttf');
+}
+
+
+
+
+
+/* This allows us to make our font size dynamic.
+clamp allows setting smallest size, growth rate and largest size.
+I used these around css files not just here, but keep everything defined here for easy reference */
+:root {
+    --fs-extraLg: clamp(0.6rem, 12vw + 1rem, 12rem);
+    --fs-size1: clamp(1rem, 4.5vw + 1rem, 6rem);
+    --fs-size2: clamp(0.1rem, 3.2vw + 1rem, 2.5rem);
+    --fs-size3: clamp(0.1rem, 1vw + 1rem, 1.8rem);
+    --fs-size4: clamp(0.1rem, 0.1vw + 1rem, 1.2rem);
+    --fs-size5: clamp(0.1rem, 0.1vw + 1rem, 1.2rem);
+    /*
+    h1 - 70
+    h2 - 48
+    h3 - 32
+    h4 - 24
+    */
+}
+
+html {
+    scroll-behavior: smooth;
+    /* max-width: 1000px; */
+    padding: 0;
+    margin: 0;
+    /* This stops people scrolling outside of parallax when we dont want them to */
+    /* overflow-x: hidden;
+    overflow-y: hidden; */
+}
+
+body {
+    /* max-width: 1000px; */
+    scroll-behavior: smooth;
+    
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    /* This stops horizontal scrollbar */
+     overflow-x: hidden; 
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    padding:0px !important;
+}
+
+.extraLg {
+    font-family: Arial;
+    font-size: var(--fs-extraLg);
+    font-weight: normal;
+    line-height: 1.1em;
+    color: #000;
+    padding: 0;
+    margin: 0;
+    white-space: pre-line;
+}
+
+h1 {
+    font-family: Circular;
+    font-size: var(--fs-size1);
+    font-weight: normal;
+    line-height: 1.5em;
+    color:#000;
+    padding: 0;
+    margin: 0;
+    white-space: pre-line;
+}
+
+h2 {
+    font-family: Circular;
+    font-size: var(--fs-size2);
+    font-weight: normal;
+    line-height: 1.3em;
+    color:#000;
+    padding: 0;
+    margin: 0;
+    white-space: pre-line;
+}
+
+h3 {
+    font-family: Circular;
+    font-size: var(--fs-size3);
+    font-weight: normal;
+    line-height: 1.2em;
+    color:#000;
+    padding: 0;
+    margin: 0;
+    white-space: pre-line;
+}
+
+h4 {
+    font-family: Circular;
+    font-size: var(--fs-size4);
+    font-weight: normal;
+    line-height: 1.6em;
+    color:#000;
+    padding: 0;
+    margin: 0;
+    white-space: pre-line;
+}
+
+h5 {
+    font-family: Circular;
+    font-size: var(--fs-size5);
+    font-weight: normal;
+    line-height: 1.6em;
+    color:#000;
+    padding: 0;
+    margin: 0;
+    white-space: pre-line;
+}
+
+p {
+    font-family: Circular;
+    font-size: var(--fs-size4);
+    font-weight: normal;
+    line-height: 1.3em;
+    color:#000;
+    padding: 0;
+    margin: 0;
+    white-space: pre-line;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    border-width: 0;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+}
+
+/* PLACEHOLDER TEXT COLOR */
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fff;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #fff;
+}
+/*END OF PLACEHOLDER TEXT COLOR */
+
+@media only screen and (min-width: 992px) {
+    /* CUSTOM SCROLLBAR - FIREFOX DOESNT SUPPORT THIS - only implement on mobile sized screens */
+    /* width */
+    ::-webkit-scrollbar {
+        width: 10px;
+        overflow: overlay;
+    }
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: transparent;
+        overflow: overlay;
+    }
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #C4C4C4;
+        overflow: overlay;
+    }
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #3D4EE0;
+        overflow: overlay;
+    }
+    /* END OF CUSTOM SCROLLBAR */
+}
+
+/* CUSTOM HIGHLIGHT COLOR */
+::selection {
+    background-color: #3D4EE0;
+}
+/* for firefox */
+::moz-selection {
+    background-color: #3D4EE0;
+}
+
+
+/* END OF CUSTOM HIGHLIGHT COLOR */
+
+.player-wrapper {
+    position: relative;
+    padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
+    margin-top:15%;
+  }
+  
+  .react-player {
+    position: absolute;
+    top: 0px;
+    right:0px;
+    width:80% !important;
+      height:80% !important;
+    
+  }
+  .react-player video {
+    position: relative;
+    left: 0;
+    top: 0;
+    transform: none;
+}
+
+  .scrollable-element {
+    scrollbar-color: dark;
+  }
+  webkit-scrollbar {
+    background: black;
+}
+
+@media only screen and (max-width: 786px) {
+
+    .player-wrapper {
+        position: relative;
+        padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
+        margin-top:15%;
+      }
+      
+      .react-player {
+        position: absolute;
+        top: 0px;
+        right:0px;
+        width:100% !important;
+        height:100% !important;
+        
+      }
+      .react-player video {
+        position: relative;
+        left: 0;
+        top: 0;
+        transform: none;
+    }
+
+}
+  

@@ -1,0 +1,176 @@
+.section1background {
+    display: flex;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.section1 {
+    display: flex;
+    align-items: flex-end;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.section2Background {
+    height: 100vh;
+    width: 100vw;
+    background-color: #84CDC1;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90vw;
+    padding-top: 5vh;
+    padding-left: 8vw;
+}
+
+.section3Background {
+    width: 100vw;
+    height: 95vh;
+    background-color: #84CDC1;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.section3Square {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    height: 350px;
+    max-height: 350px;
+    margin-left: 14vw;
+    margin-right: 14vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    background-color: #98DCCC;
+    border-radius: 20px;
+}
+
+.section4 {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: -2;
+}
+
+.gradientBackground {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, #84CDC1, #AEE2D6, #84CDC1);
+    z-index: -1;
+}
+
+.section5 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 100vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 10vh;
+    padding-bottom: 15vh;
+    z-index: 2;
+}
+
+.vertical {
+    display: flex;
+    height: 140vh;
+    width: 100px;
+    background-color: #fff;
+}
+
+.horizontal {
+    display: flex;
+    height: 110px;
+    width: 160px;
+    background-color: #fff;
+}
+
+.section5Text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 60vw;
+    max-width: 60vw;
+    margin-right: 3vw;
+}
+
+.section5Image {
+    max-height: 40vh;
+    max-width: 250px;
+    margin-left: 100px;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.section6 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 10vh;
+    padding-bottom: 15vh;
+}
+
+.section6Text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 53vw;
+    max-width: 60vw;
+}
+
+.section6Image {
+    max-height: 40vh;
+    max-width: 250px;
+    margin-right: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+    width: 140px;
+    margin-left: -180px;
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+.innerCircle {
+    display: flex;
+    height: 45px;
+    width: 45px;
+    background-color: #98DCCC;
+    border-radius: 100%;
+}
+
+.verticalP {
+    display: flex;
+    height: 140vh;
+    width: 50px;
+    background-color: #fff;
+}

@@ -1,0 +1,301 @@
+.heading {
+    font-family: "Cerebri Sans Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 41px;
+    /* identical to box height */
+    background: linear-gradient(90deg, #00c6ff 0%, #0072ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding-top: 80px;
+}
+.bodytext {
+    font-family: "Cerebri Sans Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #4f4f4f;
+    
+}
+.subheading {
+    font-family: "Cerebri Sans Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 41px;
+    /* identical to box height */
+    background: linear-gradient(90deg, #4cb8c4 0%, #3cd3ad 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.visioncontainer {
+    text-align: center;
+    background-image: url("/lp_text.svg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position-x: 30px;
+    background-position-y: top;
+    margin-right: 0px !important;
+    margin-top: -100px;
+}
+
+.visioncontainerrow {
+    
+    padding-top: 100px;
+}
+
+.bodyheading1 {
+    font-family: "Cerebri Sans SemiBold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 69px;
+    color: #000000;
+}
+
+.bodyheading2 {
+    font-family: "Cerebri Sans SemiBold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 100px;
+    color: #000000;
+}
+
+.cardstyle1 {
+    background: linear-gradient(124.84deg, #4cb9c4 -2.7%, #3dd3ae 103.78%);
+    border-radius: 8px;
+    min-height: 369px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cardstyle2 {
+    background: linear-gradient(124.84deg, #00c6ff -2.7%, #0075ff 103.78%);
+    border-radius: 8px;
+    min-height: 369px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cardheading {
+    font-family: "Cerebri Sans Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 20px;
+
+    color: #ffffff;
+}
+
+.cardbody {
+    font-family: "Cerebri Sans Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    /* or 26px */
+    text-align: center;
+    /* Gray 6 */
+    color: #f2f2f2;
+}
+
+.serviceheading {
+    font-family: "Cerebri Sans Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 41px;
+    /* identical to box height */
+    background: linear-gradient(90deg, #4cb8c4 0%, #3cd3ad 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.servicebodytext {
+    font-family: "Cerebri Sans Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    /* or 26px */
+    text-align: center;
+    padding-left:60px;
+    padding-right:60px;
+
+
+
+    color: #4f4f4f;
+}
+
+.player-wrapper {
+    width: 610px;
+    height: 391px;
+}
+
+.videoColumn {
+    background-image: url("/video_bg.svg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position-x: right;
+    background-position-y: top;
+    margin-right: 0px !important;
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem!important;
+}
+
+.valuesContainer {
+    background-image: url("/values_bg.svg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position-x: left;
+    background-position-y: center;
+    margin-right: 0px !important;
+}
+
+.productServiceRow{
+    
+    background-image: url("/lp_text.svg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position-x: right ;
+    background-position-y: center;
+    margin-right: 0px !important;
+}
+
+.productServiceContainer{
+    margin-top:120px;
+   
+}
+
+.videoColumn1 {
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+}
+
+.videoColumn2 {
+    
+    padding-bottom: 3rem;
+}
+.valuesRow {
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+}
+
+.productServiceRow {
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+}
+
+
+
+@media only screen and (max-width: 786px) {
+
+    .servicebodytext {
+        padding-left:0px;
+        padding-right:0px;
+    }
+
+    .valuesContainer {
+        background:none;
+    }
+    
+
+    .cardstyle1 {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .productServiceRow {
+        padding-top: 0rem!important;
+        padding-bottom: 0rem!important;
+        background:none;
+    }
+    
+    .productServiceContainer {
+        margin-top:0px;
+        background:none;
+    }
+    .serviceheading {
+        font-size: 24px;
+line-height: 30px;
+    }
+
+    .valuesRow {
+        padding-left: 0;
+        padding-right: 0;
+    
+    }
+
+    .videoColumn1 {
+
+        margin-bottom:-50px !important;
+
+    }
+    .visioncontainer {
+        background:none;
+    }
+    .bodyheading2 {
+
+        padding-top:0px;
+
+    }
+    .bodyheading1 {
+        padding-top:20px;
+    }
+
+    .videoColumn2 {
+        width:100%;
+        padding-top: 5rem !important;
+       
+      
+        padding-bottom: 5rem!important;
+        background-image: url("/video_mobile_bg.svg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position-x: right;
+    background-position-y: center;
+   
+
+    }
+
+    .heading {
+
+        font-size: 24px;
+line-height: 30px;
+padding-top: 0px;
+
+
+
+    }
+    .bodytext {
+       
+font-size: 14px;
+line-height: 160%;
+    }
+    .subheading {
+
+        font-size: 24px;
+line-height: 30px;
+
+    }
+    .videoColumn {
+        background:none;
+        padding-top:0px;
+    }
+
+}

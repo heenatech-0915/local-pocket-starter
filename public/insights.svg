@@ -1,0 +1,25 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="50" cy="50" r="50" fill="white"/>
+<g clip-path="url(#clip0_1019_2158)">
+<path d="M70.84 65.2203L62.9858 57.3846C62.9462 57.345 62.8996 57.316 62.8582 57.2878C62.1525 58.3729 61.3085 59.4043 60.3563 60.3565C59.405 61.3086 58.3719 62.1526 57.2754 62.8601C57.3141 62.9006 57.3432 62.9481 57.3828 62.9868L65.2211 70.8401C66.7725 72.3889 69.292 72.3872 70.8382 70.8401C72.3862 69.2913 72.3871 66.7709 70.84 65.2203Z" fill="url(#paint0_linear_1019_2158)"/>
+<path d="M59.237 33.3494C52.1018 26.2159 40.4944 26.2159 33.3583 33.3511C26.2152 40.4845 26.2143 52.1008 33.353 59.2368C40.4917 66.3694 52.1018 66.3694 59.237 59.236C66.3722 52.1008 66.3713 40.4837 59.237 33.3494ZM36.7165 55.8769C31.4337 50.5942 31.4355 41.9938 36.7182 36.7163C42.001 31.4344 50.5961 31.4344 55.8771 36.7137C61.1563 41.9938 61.1546 50.5845 55.8771 55.8752C50.5952 61.1412 42.001 61.1606 36.7165 55.8769Z" fill="url(#paint1_linear_1019_2158)"/>
+<path d="M40.4783 47.7687C40.0902 46.1741 38.4921 43.9617 37.1475 44.6666C36.0817 45.2105 36.3818 47.7045 36.8843 49.1794C39.1301 55.886 47.2976 57.3037 48.1468 56.4554C48.9819 55.6211 42.0166 54.0793 40.4783 47.7687Z" fill="url(#paint2_linear_1019_2158)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1019_2158" x1="64.6376" y1="57.2878" x2="64.6376" y2="72.0011" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4BBCC3"/>
+<stop offset="1" stop-color="#3ED2B0"/>
+</linearGradient>
+<linearGradient id="paint1_linear_1019_2158" x1="46.294" y1="27.9995" x2="46.294" y2="64.5861" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4BBCC3"/>
+<stop offset="1" stop-color="#3ED2B0"/>
+</linearGradient>
+<linearGradient id="paint2_linear_1019_2158" x1="42.3219" y1="44.5319" x2="42.3219" y2="56.6767" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4BBCC3"/>
+<stop offset="1" stop-color="#3ED2B0"/>
+</linearGradient>
+<clipPath id="clip0_1019_2158">
+<rect width="44" height="44" fill="white" transform="translate(28 28)"/>
+</clipPath>
+</defs>
+</svg>

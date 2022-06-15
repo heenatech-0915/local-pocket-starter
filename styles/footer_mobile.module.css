@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.item {
+    display: flex;
+    font-weight: bold;
+    cursor: pointer;
+}

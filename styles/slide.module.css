@@ -1,0 +1,138 @@
+.container {
+    min-height: 789px;
+    width:100%;
+    background-color:#57968B !important;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.heading {
+    font-family: "Cerebri Sans Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: #ffffff;
+    /* identical to box height */
+}
+
+.slideImage {
+    height:635px; 
+    width:100%;
+}
+
+.subheading {
+    font-family: "Cerebri Sans Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 81px;
+    color: #ffffff;
+}
+
+.bodytext {
+    font-family: "Cerebri Sans Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    /* or 32px */
+
+    color: rgba(255, 255, 255, 0.72);
+}
+
+.slideColumn1 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('/slide_bg_left.svg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position-x: 20px;
+  background-position-y: 40% !important;
+
+}
+.slideButton {
+    display: flex !important;
+   
+flex-direction: column;
+align-items: center;
+
+gap: 8px;
+
+width: 280px;
+height: 48px;
+border-color: #FFFFFF !important;
+font-family: 'Cerebri Sans SemiBold';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+padding: 0.75rem 0.75rem !important;
+
+vertical-align: middle !important;
+/* identical to box height, or 150% */
+
+
+color: #57968B !important;
+
+background: #FFFFFF !important;
+border-radius: 24px !important;
+}
+
+
+
+@media only screen and (max-width: 786px) {
+
+    .heading {
+       
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+
+color: #FFFFFF;
+
+    }
+
+    .subheading {
+        
+        
+font-size: 40px;
+line-height: 51px;
+text-align: center;
+
+color: #FFFFFF;
+    }
+    .bodytext {
+       
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+text-align: center;
+
+color: rgba(255, 255, 255, 0.72);
+    }
+    .slideButton {
+        text-align:center;
+        margin-left:10%;
+        margin-right:10%;
+    }
+    .slideColumn1 {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-image:none;
+        min-height:400px;
+      
+    
+    }
+    .slideImage {
+        height:535px; 
+        width:100%;
+    }
+
+}

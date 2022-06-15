@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    width: 100vw;
+}
+
+.item {
+    display: flex;
+    padding-right: 2.5vw;
+    font-weight: bold;
+    cursor: pointer;
+}

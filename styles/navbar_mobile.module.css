@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    position: fixed;
+    justify-content: flex-end;
+    width: 100vw;
+    margin: 0;
+    padding-top: 15px;
+    padding-right: 15px;
+    background-color: transparent;
+    z-index: 10;
+}
+
+.inner {
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+}

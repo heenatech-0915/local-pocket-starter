@@ -1,0 +1,134 @@
+.section1Background {
+    height: 100vh;
+    width: 100vw;
+    background-color: #5A66D1;
+}
+
+.section1 {
+    padding-left: 5vw;
+    width: 50vw;
+    max-width: 50vw;
+}
+
+.section1Image {
+    height: 120vh;
+    margin-left: 45vw;
+}
+
+.gradientBackground {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, #5A66D1, #8E96E4, #5A66D1);
+    z-index: -1;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 100vw;
+    padding-left: 3vw;
+    padding-bottom: 15vh;
+    z-index: 2;
+    /* background-color: orange; */
+}
+
+.vertical {
+    display: flex;
+    height: 115vh;
+    width: 12vw;
+    background-color: #fff;
+}
+
+.horizontal {
+    display: flex;
+    height: 20vh;
+    width: 20vw;
+    background-color: #fff;
+}
+
+.section2Image {
+    max-height: 800px;
+    max-width: 400px;
+    margin-left: 0;
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.section2Text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    max-width: 33vw;
+}
+
+.signUp {
+    display: flex;
+    align-self: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 20vh;
+}
+
+.section3Text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    max-width: 33vw;
+}
+
+.section3Image {
+    max-height: 700px;
+    max-width: 350px;
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 23vw;
+    max-height: 600px;
+    min-height: 400px;
+    width: 23vw;
+    max-width: 600px;
+    min-width: 400px;
+    margin-left: -180px;
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+.innerCircle {
+    display: flex;
+    height: 8vw;
+    max-height: 230px;
+    min-height: 120px;
+    width: 8vw;
+    max-width: 230px;
+    min-width: 120px;
+    background-color: #7c86dd;
+    border-radius: 100%;
+}
+
+.verticalP {
+    display: flex;
+    height: 100vh;
+    width: 12vw;
+    background-color: #fff;
+}
