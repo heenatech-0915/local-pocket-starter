@@ -1,56 +1,141 @@
-.container{
-    width:100vw;
-   
-    
+.container {
+    width: 100vw;
 }
+
+.navbarcontainer {
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+}
+
 .navbar {
-    
-left: 0px;
-top: 0px;
-background: #57968B !important;
-
-
+    left: 0px;
+    top: 0px;
+    background: #57968b;
 }
 
- .navlink {
-
-font-family: 'Poppins-Regular';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #ffffff !important;
-padding-right: 52px !important;
-display: flex; justify-content: center
+.navlink {
+    font-family: "Poppins-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff !important;
+    padding-right: 52px !important;
+    display: flex;
+    justify-content: center;
 }
-
 
 .primaryButton {
-   
     display: flex !important;
-flex-direction: column;
-align-items: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 16px !important;
+    vertical-align: center;
+    gap: 8px;
+    font-family: "Cerebri Sans SemiBold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
 
+    width: 167px;
 
-vertical-align: center;
-Gap:8px;
-font-family: 'Cerebri Sans SemiBold';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 24px;
+    color: #57968b !important;
+    border-color: #57968b !important;
 
-
-width: 167px;
-
-color:#57968B !important;
-
-background: #ffffff !important;
-border-radius: 24px !important;
-border-color:#FFFFFF !important;
-
+    background: #ffffff !important;
+    border-radius: 24px !important;
+   
 }
 
 @media only screen and (max-width: 786px) {
+    .navbarcontainer {
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
 
+.title {
+    font-family: "Cerebri Sans Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150.3%;
+    /* identical to box height, or 42px */
+
+    display: flex;
+    align-items: center;
+
+    color: #0d0a1a;
+}
+
+.subtitle {
+    font-family: "Cerebri Sans Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.3%;
+    /* or 24px */
+
+    display: flex;
+    align-items: center;
+
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.questionheading {
+    font-family: "Cerebri Sans SemiBold";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150.3%;
+    /* identical to box height, or 24px */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 16px !important;
+    gap: 8px;
+    vertical-align: center;
+    width: 280px;
+    height: 48px;
+    text-align: center;
+
+    background: #57968b !important;
+
+    border-color: #57968b !important;
+    border-radius: 24px !important;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: "Cerebri Sans Bold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    color: #ffffff;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.closebutton1 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
 }

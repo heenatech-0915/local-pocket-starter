@@ -12,11 +12,11 @@ function IndexMidSection() {
       <div className={`${ styles.videoColumn}`}>
       <Container fluid  >
         <Row  >
-          <Col className={`${ styles.videoColumn1 } py-5 px-4 }`} xs={12} lg={6}>
+          <Col className={`${ styles.videoColumn1 } py-5 px-5 }`} xs={12} lg={6}>
             <p className={styles.heading}>WHAT IS LOCAL POCKET?</p>
 
             <p className={styles.bodytext}>
-              Pocket is a bespoke mobile app helping to connect diverse
+              Local Pocket is a bespoke mobile app helping to connect diverse
               customers with independent businesses within a local neighbourhood
               Based on a unique “local community” concept that allows different
               trades to offer promotions and discounts on goods or services

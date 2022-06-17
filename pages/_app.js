@@ -9,6 +9,7 @@ import WindowSize from '../components/windowsSize'
 import Breakpoints from '../components/breakpoints'
 import IndexDesktop from '../components/indexDesktop'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import IndexNavBar from '../components/indexNavBar';
 function MyApp({ Component, pageProps }) {
     const [ width, height ] = WindowSize()
 
@@ -30,7 +31,8 @@ function MyApp({ Component, pageProps }) {
                 <meta name="description" content="Local Pocket is a UK loyalty scheme which aims to better connect local businesses with local customers." />
             </Head>
 
-            <Component {...pageProps} setShowDownloadModal={setShowDownloadModal} showDownloadModal={showDownloadModal} />
+           
+            <Component {...pageProps}  />
 
             
         </>

@@ -33,11 +33,11 @@
     font-size: var(--fs-size4);
     font-weight: normal;
     line-height: 1.2em;
-    color:#fff;
+    color: #fff;
     padding: 0;
     margin: 0;
     white-space: pre-line;
-    
+
     height: 50px;
     width: 100%;
     margin-top: 3vh;

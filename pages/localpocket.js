@@ -8,6 +8,8 @@ import WindowSize from '../components/windowsSize'
 import Breakpoints from '../components/breakpoints'
 import NavbarDesktop from '../components/navbarDesktop'
 import NavbarMobile from '../components/navbarMobile'
+import IndexNavBar from '../components/indexNavBar';
+
 // Styling.
 import TransitionAnimation from '../components/transitionAnimation'
 
@@ -22,8 +24,7 @@ function LocalPocket({ setShowDownloadModal, showDownloadModal }) {
             </Head>
 
             <body>
-            { width > Breakpoints.mobile ? <NavbarDesktop showDownloadModal={showDownloadModal} setShowDownloadModal={setShowDownloadModal} /> : <NavbarMobile showDownloadModal={showDownloadModal} setShowDownloadModal={setShowDownloadModal} /> }
-
+            
                 <motion.div
                 variants={TransitionAnimation}
                 initial="hidden"
@@ -31,8 +32,8 @@ function LocalPocket({ setShowDownloadModal, showDownloadModal }) {
                 exit="exit"
                 transition={{ type: 'linear', duration: 1 }}
                 >
-
-                    { width > Breakpoints.mobile ? <HomeDesktop setShowDownloadModal={setShowDownloadModal} /> : <HomeMobile setShowDownloadModal={setShowDownloadModal} /> }
+<IndexNavBar/>
+                    { width > Breakpoints.mobile ? <HomeDesktop  /> : <HomeMobile  /> }
 
                 </motion.div>
             </body>

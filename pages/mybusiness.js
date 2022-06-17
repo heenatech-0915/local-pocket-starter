@@ -8,10 +8,11 @@ import WindowSize from '../components/windowsSize'
 import Breakpoints from '../components/breakpoints'
 import NavbarDesktop from '../components/navbarDesktop'
 import NavbarMobile from '../components/navbarMobile'
+import IndexNavBar from '../components/indexNavBar';
 // Styling.
 import TransitionAnimation from '../components/transitionAnimation'
 
-function MyBusiness({ setShowDownloadModal ,showDownloadModal}) {
+function MyBusiness() {
     const [ width, height ] = WindowSize()
     
 
@@ -22,9 +23,7 @@ function MyBusiness({ setShowDownloadModal ,showDownloadModal}) {
                 <title>My Business</title>
                 <meta name="theme-color" content="#5C68D2" key="coloring1" />
             </Head>
-            { width > Breakpoints.mobile ? <NavbarDesktop showDownloadModal={showDownloadModal} setShowDownloadModal={setShowDownloadModal} /> : <NavbarMobile showDownloadModal={showDownloadModal} setShowDownloadModal={setShowDownloadModal} /> }
-
-
+            
             <motion.div
             variants={TransitionAnimation}
             initial="hidden"
@@ -32,7 +31,8 @@ function MyBusiness({ setShowDownloadModal ,showDownloadModal}) {
             exit="exit"
             transition={{ type: 'linear', duration: 1 }}
             >
-                    { width > Breakpoints.mobile ? <MyBusinessDesktop setShowDownloadModal={setShowDownloadModal} /> : <MyBusinessMobile setShowDownloadModal={setShowDownloadModal} /> }
+               
+                    { width > Breakpoints.mobile ? <MyBusinessDesktop  /> : <MyBusinessMobile  /> }
             </motion.div>
         </>        
     )

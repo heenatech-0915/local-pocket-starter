@@ -18,7 +18,6 @@
     font-size: 20px;
     line-height: 160%;
     color: #4f4f4f;
-    
 }
 .subheading {
     font-family: "Cerebri Sans Bold";
@@ -45,7 +44,6 @@
 }
 
 .visioncontainerrow {
-    
     padding-top: 100px;
 }
 
@@ -134,15 +132,11 @@
     line-height: 160%;
     /* or 26px */
     text-align: center;
-    padding-left:60px;
-    padding-right:60px;
-
-
+    padding-left: 60px;
+    padding-right: 60px;
 
     color: #4f4f4f;
 }
-
-
 
 .videoColumn {
     background-image: url("/video_bg.svg");
@@ -151,8 +145,8 @@
     background-position-x: right;
     background-position-y: top;
     margin-right: 0px !important;
-    padding-right: 1.5rem!important;
-    padding-left: 1.5rem!important;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
 }
 
 .valuesContainer {
@@ -164,138 +158,114 @@
     margin-right: 0px !important;
 }
 
-.productServiceRow{
-    
+.productServiceRow {
     background-image: url("/lp_text.svg");
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position-x: right ;
+    background-position-x: right;
     background-position-y: center;
     margin-right: 0px !important;
 }
 
-.productServiceContainer{
-    margin-top:120px;
-   
+.productServiceContainer {
+    margin-top: 120px;
 }
 
 .videoColumn1 {
-    padding-top: 3rem!important;
-    padding-bottom: 3rem!important;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
 }
 
 .videoColumn2 {
-    
     padding-bottom: 3rem;
 }
 .valuesRow {
     padding-left: 3rem;
     padding-right: 3rem;
-
 }
 
 .productServiceRow {
-    padding-top: 3rem!important;
-    padding-bottom: 3rem!important;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
 }
 
-
-
 @media only screen and (max-width: 786px) {
-
     .servicebodytext {
-        padding-left:0px;
-        padding-right:0px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .valuesContainer {
-        background:none;
+        background: none;
     }
-    
 
     .cardstyle1 {
         margin-top: 1.5rem;
         margin-bottom: 1.5rem;
     }
     .productServiceRow {
-        padding-top: 0rem!important;
-        padding-bottom: 0rem!important;
-        background:none;
+        padding-top: 0rem !important;
+        padding-bottom: 0rem !important;
+        background: none;
     }
-    
+
     .productServiceContainer {
-        margin-top:0px;
-        background:none;
+        margin-top: 0px;
+        background: none;
     }
     .serviceheading {
         font-size: 24px;
-line-height: 30px;
+        line-height: 30px;
     }
 
     .valuesRow {
         padding-left: 0;
         padding-right: 0;
-    
     }
 
     .videoColumn1 {
-
-        margin-bottom:-50px !important;
-
+        margin-bottom: -50px !important;
     }
     .visioncontainer {
-        background:none;
+        background: none;
     }
     .bodyheading2 {
-
-        padding-top:0px;
-
+        padding-top: 0px;
     }
     .bodyheading1 {
-        padding-top:20px;
+        padding-top: 20px;
     }
 
     .videoColumn2 {
-        width:100%;
+        width: 100%;
         padding-top: 5rem !important;
-       
-      
-        padding-bottom: 5rem!important;
-        background-image: url("/video_mobile_bg.svg");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position-x: right;
-    background-position-y: center;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-   
 
+        padding-bottom: 5rem !important;
+        background-image: url("/video_mobile_bg.svg");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position-x: right;
+        background-position-y: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .heading {
-
         font-size: 24px;
-line-height: 30px;
-padding-top: 0px;
-
-
-
+        line-height: 30px;
+        padding-top: 0px;
     }
     .bodytext {
-       
-font-size: 14px;
-line-height: 160%;
+        font-size: 14px;
+        line-height: 160%;
     }
     .subheading {
-
         font-size: 24px;
-line-height: 30px;
-
+        line-height: 30px;
     }
     .videoColumn {
-        background:none;
-        padding-top:0px;
+        background: none;
+        padding-top: 0px;
     }
-
 }

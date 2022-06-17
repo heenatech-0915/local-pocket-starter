@@ -25,7 +25,7 @@ function IndexFooter() {
             <img src="/phone_icon.svg" className="d-inline-block align-top" alt="Local Pocket" />
             </Col>
             <Col xs={11} lg={11}>
-            <p className={styles.textStyle3}> +1 609 9004 144</p>
+            <p className={styles.textStyle3}> +44 7853555139</p>
 
             </Col>
 
@@ -35,7 +35,7 @@ function IndexFooter() {
             <img src="/location.svg" className="d-inline-block align-top" alt="Local Pocket" />
             </Col>
             <Col xs={11} lg={11}>
-            <p className={styles.textStyle3}> Suite 208 C 204 Ark Road Mount Laurel Township New Jersey, USA - 08054</p>
+            <p className={styles.textStyle3}> London E10, UK</p>
 
             </Col>
 
@@ -78,8 +78,8 @@ function IndexFooter() {
         <p className={styles.textStyle2}>Connect</p>
 
         <Row className="pt-3">
-          <Col><img src="/facebook.svg" className="d-inline-block align-top" alt="Facebook" /></Col>
-          <Col><img src="/twitter.svg" className="d-inline-block align-top" alt="Twitter" /></Col>
+          <Col><a  href= 'https://www.facebook.com/Local-Pocket-111025411642273'> <img src="/facebook.svg" className="d-inline-block align-top" alt="Facebook" /></a></Col>
+          <Col><a  href= 'https://twitter.com/localpocket2022'><img src="/twitter.svg" className="d-inline-block align-top" alt="Twitter" /></a></Col>
           <Col><img src="/instagram.svg" className="d-inline-block align-top" alt="Instagram" /></Col>         
           <Col><img src="/linkedin.svg" className="d-inline-block align-top" alt="Linkedin" /></Col>
         

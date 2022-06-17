@@ -1,168 +1,139 @@
 .servicesColumn1 {
-    background: rgb(87, 150, 139,0.08);
-    text-align: center;
-    position: relative;
-   
-
-
+  background: rgb(87, 150, 139, 0.08);
+  text-align: center;
+  position: relative;
 }
-
-
 
 .service1Heading {
-font-family: 'Cerebri Sans Bold';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 41px;
-/* identical to box height */
-background: linear-gradient(90deg, #4CB8C4 0%, #3CD3AD 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-text-fill-color: transparent;
-text-transform: uppercase;
-
-}
-
-.service2Heading {
-  font-family: 'Cerebri Sans Bold';
+  font-family: "Cerebri Sans Bold";
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 41px;
   /* identical to box height */
-  background: linear-gradient(90deg, #00C6FF 0%, #0072FF 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg, #4cb8c4 0%, #3cd3ad 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   background-clip: text;
-  
+  text-fill-color: transparent;
   text-transform: uppercase;
-  
-  }
+}
+
+.service2Heading {
+  font-family: "Cerebri Sans Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 41px;
+  /* identical to box height */
+  background: linear-gradient(90deg, #00c6ff 0%, #0072ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  text-transform: uppercase;
+}
 
 .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background: linear-gradient(180deg, #4BBCC2 0%, #3FD0B1 100%);
-    
-  }
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background: linear-gradient(180deg, #4bbcc2 0%, #3fd0b1 100%);
+}
 
-  .overlay1 {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background: linear-gradient(180deg, #4BBCC2 0%, #3FD0B1 100%);
-    
-  }
-  .overlay .textstyle4 {
+.overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background: linear-gradient(180deg, #4bbcc2 0%, #3fd0b1 100%);
+}
+.overlay .textstyle4 {
+  text-align: center;
+  font-family: "Cerebri Sans SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
 
-    text-align:center;
-    font-family: 'Cerebri Sans SemiBold';
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 30px;
+  color: #ffffff;
+  position: relative;
+  top: 50%;
+}
 
-color: #FFFFFF;
-position: relative;
-    top: 50%;
+.overlay1 .textstyle4 {
+  text-align: center;
+  font-family: "Cerebri Sans SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  position: relative;
+  top: 50%;
+}
 
-  }
+.overlay1 .textstyle4 a {
+  color: #ffffff;
+}
 
-  .overlay1 .textstyle4 {
-
-    text-align:center;
-    font-family: 'Cerebri Sans SemiBold';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 30px;
-    color: #FFFFFF;
-    position: relative;
-    top: 50%;
-
-  }
-  
-  .overlay1 .textstyle4  a {
-    color: #FFFFFF;
-  }
-
-  .overlay .textstyle4  a {
-    color: #FFFFFF;
-  }
-  
+.overlay .textstyle4 a {
+  color: #ffffff;
+}
 
 .servicesColumn1:hover .overlay {
-    opacity: 0.8;
-  }
+  opacity: 0.8;
+}
 
-  .servicesColumn2:hover .overlay1 {
-    opacity: 0.8;
-  }
-
+.servicesColumn2:hover .overlay1 {
+  opacity: 0.8;
+}
 
 @media only screen and (max-width: 786px) {
-
   .service1Heading {
     font-size: 24px;
     line-height: 30px;
-
   }
 
   .service2Heading {
     font-size: 24px !important;
     line-height: 30px;
-    
   }
 
   .serviceImage {
-    width:85% !important;
+    width: 85% !important;
   }
-
 }
-
 
 .servicesColumn2 {
-    background: rgb(78, 127, 255, 0.08);
-    text-align: center;
-    position: relative;
-
-    
+  background: rgb(78, 127, 255, 0.08);
+  text-align: center;
+  position: relative;
 }
 
-
-
 .service2Heading {
+  font-family: "Cerebri Sans Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 41px;
+  text-transform: uppercase;
+  /* identical to box height */
 
-    font-family: 'Cerebri Sans Bold';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 41px;
-text-transform: uppercase;
-/* identical to box height */
-
-
-background: linear-gradient(90deg, #00C6FF 0%, #0072FF 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-text-fill-color: transparent;
-
-
-    
+  background: linear-gradient(90deg, #00c6ff 0%, #0072ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }

@@ -11,7 +11,7 @@ import Breakpoints from '../components/breakpoints'
 // Styling.
 import TransitionAnimation from '../components/transitionAnimation'
 
-function Index({ setShowDownloadModal }) {
+function Index() {
     const [ width, height ] = WindowSize()
     
     return (
@@ -33,7 +33,7 @@ function Index({ setShowDownloadModal }) {
 
                     {
                         
-                    width > Breakpoints.mobile ? <IndexDesktop  setShowDownloadModal={setShowDownloadModal}  /> : <IndexMobile  setShowDownloadModal={setShowDownloadModal} />}
+                    width > Breakpoints.mobile ? <IndexDesktop    /> : <IndexMobile  />}
                       
 
                 </motion.div> 

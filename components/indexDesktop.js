@@ -4,7 +4,7 @@ import Slide from '../components/slide'
 import IndexServices from './indexServices';
 import IndexFooter from './indexFooter';
 
-function IndexDesktop({ setShowDownloadModal }) {
+function IndexDesktop() {
     return (
      
       <>

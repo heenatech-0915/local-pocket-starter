@@ -6,8 +6,8 @@ import { animated, useSpring } from '@react-spring/web'
 import Footer from '../components/footerMobile'
 // Styling.
 import styles from '../styles/mybusiness_mobile.module.css'
-
-function MyBusinessMobile({ setShowDownloadModal }) {
+import IndexNavBar from './indexNavBar'
+function MyBusinessMobile() {
     const parallaxRef = useRef()
 
     // This means changing one sections offset will auto push the later sections down correctly,
@@ -50,6 +50,12 @@ function MyBusinessMobile({ setShowDownloadModal }) {
             
         <Parallax pages={totalPages} style={{ top: '0', left: '0' }} ref={parallaxRef}>
 
+<ParallaxLayer  style={{zIndex: 2}}>
+        <IndexNavBar/>
+           
+            </ParallaxLayer>
+       
+
             {/* SECTION 1 BACKGROUND */}
             <ParallaxLayer
             sticky={{start: offsetS1, end: offsetS3}}
@@ -72,18 +78,18 @@ function MyBusinessMobile({ setShowDownloadModal }) {
                 </h2>
 
                 <h4 className='h4' style={{color: '#fff', marginTop: '2vh'}}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam in varius augue ornare neque. Pretium consequat purus pulvinar sit eros. Diam ut quam auctor vitae a id scelerisque velit.
-                    <br /><br/>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam in varius augue ornare neque. Pretium consequat purus pulvinar sit eros. Diam ut quam auctor vitae a id scelerisque velit.
+                Local Pocket helps ambitious businesses attract new and returning customers. Poviding powerful, flexible, easy to use systems for creating unique loyalty programs alonside your beautiful new digital presence with just your phone!
+                    
+
                 </h4>
             </ParallaxLayer>
 
             {/* SECTION 1 - IMAGES*/}
             <ParallaxLayer>
                 <img
-                src="mobileDiagonalPhones.png"
+                src="mybusiness1.png"
                 alt=""
-                objectFit='cover'
+                objectFit='contain'
                 className={styles.section1Image}
                 />
             </ParallaxLayer>

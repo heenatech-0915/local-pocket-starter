@@ -1,24 +1,25 @@
 .section1Background {
     height: 100vh;
     width: 100vw;
-    background-color: #5A66D1;
+
+    background-color: #5a66d1;
 }
 
 .section1 {
-    padding-left: 5vw;
+    padding-left: 3rem;
     width: 50vw;
     max-width: 50vw;
+    padding-top: 10vh;
 }
 
 .section1Image {
-    height: 120vh;
-    margin-left: 45vw;
+    margin-left: 50vw;
 }
 
 .gradientBackground {
     height: 100vh;
     width: 100vw;
-    background-image: linear-gradient(to right, #5A66D1, #8E96E4, #5A66D1);
+    background-image: linear-gradient(to right, #5a66d1, #8e96e4, #5a66d1);
     z-index: -1;
 }
 

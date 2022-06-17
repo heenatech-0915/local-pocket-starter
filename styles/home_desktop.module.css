@@ -1,16 +1,38 @@
-.section1background {
-    display: flex;
+.section1Background {
     height: 100vh;
     width: 100vw;
+
+    background-color: #57968b;
+    display: flex;
+
     z-index: -1;
-    background-color: #84CDC1;
+
     overflow: hidden;
+}
+
+.section1 {
+    padding-left: 3rem;
+    width: 50vw;
+    max-width: 50vw;
+    padding-top: 10vh;
+    height: 200vh;
+}
+
+.section1Image {
+    margin-left: 50vw;
+}
+
+.gradientBackground {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, #5a66d1, #8e96e4, #5a66d1);
+    z-index: -1;
 }
 
 .imageEdgeGradient {
     height: 100vh;
     width: 6vw;
-    background-image: linear-gradient(to right, #84CDC1, transparent);
+    background-image: linear-gradient(to right, #57968b, transparent);
 }
 
 .greenHalfBackground {
@@ -19,30 +41,22 @@
     max-height: 80vh;
     width: 50vw;
     max-width: 1000px;
-    margin-top: 50vh;
-    background-color: #84CDC1;
+    /* margin-top: 50vh; */
+    background-color: #57968b;
     z-index: -10;
-}
-
-.section1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    height: 200vh;
-    width: 50vw;
-    max-width: 1000px;
 }
 
 .greenTopHalfBackground {
     width: 100vw;
     height: 140vh;
-    background-image: linear-gradient(to right, #84CDC1, #AEE2D6, #84CDC1);
+    background-image: linear-gradient(to right, #57968b, #aee2d6, #57968b);
 }
 
 .section2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .section2Square {
@@ -58,7 +72,7 @@
     padding-bottom: 2vh;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: #98DCCC;
+    background-color: #57968b;
     border-radius: 20px;
 }
 
@@ -73,7 +87,7 @@
 .gradientBackground {
     height: 100vh;
     width: 100vw;
-    background-image: linear-gradient(to right, #84CDC1, #AEE2D6, #84CDC1);
+    background-image: linear-gradient(to right, #57968b, #aee2d6, #57968b);
     z-index: -1;
 }
 
@@ -181,6 +195,6 @@
     width: 8vw;
     max-width: 230px;
     min-width: 120px;
-    background-color: #98DCCC;
+    background-color: #98dccc;
     border-radius: 100%;
 }

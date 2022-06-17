@@ -1,13 +1,19 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import { motion } from "framer-motion"
+import { useRouter } from 'next/router'
 // Components.
 import Footer from '../components/footerDesktop'
 // Styling.
 import styles from '../styles/mybusiness_desktop.module.css'
+import IndexNavBar from './indexNavBar'
+import DownloadModal from './downloadModal';
 
-function MyBusinessDesktop({ setShowDownloadModal }) {
-    const parallaxRef = useRef()
+function MyBusinessDesktop() {
+    const parallaxRef = useRef();
+    const [show, setShow] = useState(false);
+    const handleShow = () => setShow(true);
+    const handleClose = () => setShow(false);
 
     // This means changing one sections offset will auto push the later sections down correctly,
     // making factor (size) changes easier to manage.
@@ -46,8 +52,16 @@ function MyBusinessDesktop({ setShowDownloadModal }) {
     }, [])
 
     return (
-            
-        <Parallax pages={totalPages} style={{ top: '0', left: '0' }} ref={parallaxRef}>
+        <>
+        
+        <DownloadModal showModal={show}  handleClose={handleClose}/>
+        <Parallax className={styles.section1bg} pages={totalPages} style={{ top:0,  left: '0'}} ref={parallaxRef}>
+           
+        <ParallaxLayer  style={{zIndex: 2}}>
+        <IndexNavBar/>
+           
+            </ParallaxLayer>
+       
 
             {/* SECTION 1 BACKGROUND */}
             <ParallaxLayer
@@ -61,15 +75,15 @@ function MyBusinessDesktop({ setShowDownloadModal }) {
             className={styles.section1}
             speed={-0.5}
             >
-                <h1 className='h1' style={{color: '#fff', marginTop: '20vh', fontFamily: 'Arial'}}>
+                <h1 className='h1' style={{color: '#fff', marginTop: '20vh', fontFamily: 'Arial', fontSize:'96px'}}>
                     WELCOME.
                 </h1>
 
-                <h2 className='h2' style={{color: '#fff', marginTop: '2vh'}}>
+                <h2 className='h2' style={{color: '#fff', marginTop: '2vh', fontSize:'36px'}}>
                     To your beautiful new digital presence
                 </h2>
 
-                <h4 className='h4' style={{color: '#fff', marginTop: '2vh'}}>
+                <h4 className='h4' style={{color: '#fff', marginTop: '2vh', fontSize:'20px'}}>
                     Local Pocket helps ambitious businesses attract new and returning customers. Poviding powerful, flexible, easy to use systems for creating unique loyalty programs alonside your beautiful new digital presence with just your phone!
                 </h4>
             </ParallaxLayer>
@@ -80,9 +94,9 @@ function MyBusinessDesktop({ setShowDownloadModal }) {
             speed={0.5}
             >
                 <img
-                src="diagonalPhones.png"
+                src="mybusiness1.png"
                 alt=""
-                objectFit='cover'
+                objectFit='contain'
                 className={styles.section1Image}
                 />
             </ParallaxLayer>
@@ -155,7 +169,7 @@ function MyBusinessDesktop({ setShowDownloadModal }) {
                         </h5>
 
                         <motion.button
-                        onClick={() => setShowDownloadModal(true)}
+                        onClick={() => setShow(true)}
                         className={styles.signUp}
                         whileHover={{ opacity: 0.6, scale: 1.02 }}
                         whileTap={{ scale: 1.1 }}
@@ -193,7 +207,7 @@ function MyBusinessDesktop({ setShowDownloadModal }) {
                         </h5>
 
                             <motion.button
-                            onClick={() => setShowDownloadModal(true)}
+                            onClick={() => setShow(true)}
                             className={styles.signUp}
                             whileHover={{ opacity: 0.6, scale: 1.02 }}
                             whileTap={{ scale: 1.1 }}
@@ -258,6 +272,7 @@ function MyBusinessDesktop({ setShowDownloadModal }) {
             </ParallaxLayer>
 
         </Parallax>
+        </>
     )
 }
 
