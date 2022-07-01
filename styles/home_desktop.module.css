@@ -48,7 +48,7 @@
 
 .greenTopHalfBackground {
     width: 100vw;
-    height: 200vh;
+    height: 320vh;
     background-image: linear-gradient(to right, #57968b, #aee2d6, #57968b);
 }
 
@@ -56,6 +56,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
     
 }
 

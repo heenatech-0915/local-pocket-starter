@@ -9,7 +9,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    padding-top: 80px;
+    padding-top: 10px;
 }
 .bodytext {
     font-family: "Cerebri Sans Regular";

@@ -22,7 +22,7 @@ function HomeDesktop() {
 
     // This means changing one sections offset will auto push the later sections down correctly
     const sizeS1 = 1.0
-    const sizeS2 = 1.7
+    const sizeS2 = 2.3
     const sizeS3 = 1
     const sizeS4 = 1.1
     const sizeS5 = 1.3
@@ -157,15 +157,9 @@ function HomeDesktop() {
             </ParallaxLayer>
 
                 {/* SECTION 2 BACKGROUND */}
-                <ParallaxLayer
-                offset={offsetS2}
-                style={{zIndex: '-1'}}
-                >
-                    <div className={styles.greenTopHalfBackground} />
-                </ParallaxLayer>
-
-                {/* SECTION 2 - TEXT */}
-                <ParallaxLayer
+                
+                    <div className={styles.greenTopHalfBackground} >
+                    <ParallaxLayer
                 offset={offsetS2+0.3}
                 speed={-0.3}
                 className={styles.section2}
@@ -368,13 +362,18 @@ function HomeDesktop() {
                    
                 </ParallaxLayer>
 
+                        </div>
+               
+
+                {/* SECTION 2 - TEXT */}
+               
                 {/* SECTION 2 - LEFT SQUARE */}
                 
                 
 
                 {/* ----------- SECTION 4 - PINS -----------*/}
                 <ParallaxLayer
-                sticky={{start: offsetS3, end: offsetS5}}
+                sticky={{start: offsetS4, end: offsetS5}}
                 className={styles.section3}
                 >
                     {/* Main pin */}

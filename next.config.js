@@ -2,9 +2,6 @@
 const nextConfig = {
   reactStrictMode: true,
   trailingSlash: true,
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
   
   
 }

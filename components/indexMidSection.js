@@ -97,7 +97,7 @@ their local customers</p><br></br>
               </Col>
             </Col>
           </Row>
-          <Container className={`${ styles.productServiceContainer} py-5 px-4`} fluid>
+          <Container className={`${ styles.productServiceContainer} px-4`} fluid>
             
           <p className={styles.serviceheading}>PRODUCT AND SERVICE</p>
           <br></br>
