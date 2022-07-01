@@ -94,7 +94,7 @@ function MyBusinessDesktop() {
             speed={0.5}
             >
                 <img
-                src="mybusiness1.png"
+                src="/mybusiness1.png"
                 alt=""
                 objectFit='contain'
                 className={styles.section1Image}
@@ -112,7 +112,7 @@ function MyBusinessDesktop() {
 
             {/* SECTION 2 - L */}
             <ParallaxLayer
-            offset={offsetS2}
+            offset={offsetS2+0.3}
             factor={sizeS2}
             className={styles.section2}
             style={{display: 'flex', justifyContent: 'center'}}
@@ -137,7 +137,7 @@ function MyBusinessDesktop() {
                 <div style={{ display: 'flex', justifyContent: 'center', width: '1300px', maxWidth: '1300px' }}>
 
                     <img
-                    src="businessPhoto1.png"
+                    src="/businessPhoto1.png"
                     alt="Screenshot of..."
                     resize='contain'
                     className={styles.section2Image}
@@ -253,7 +253,7 @@ function MyBusinessDesktop() {
                 <div style={{ display: 'flex', justifyContent: 'center', width: '1300px', maxWidth: '1300px' }}>
                     
                     <img
-                    src="businessPhoto2.png"
+                    src="/businessPhoto2.png"
                     alt="Screenshot of..."
                     resize='contain'
                     className={styles.section3Image}

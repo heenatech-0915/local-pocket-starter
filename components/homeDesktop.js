@@ -3,7 +3,8 @@ import Link from 'next/link'
 import { animated, useSpring } from '@react-spring/web'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import { motion, AnimatePresence } from "framer-motion"
-
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 // Components.
 import WindowSize from './windowsSize'
 import Footer from '../components/footerDesktop'
@@ -125,7 +126,7 @@ function HomeDesktop() {
             {/* SECTION 1 - TEXT*/}
             <ParallaxLayer
             className={styles.section1}
-            speed={-0.5}
+            speed={0.5}
             >
                 <h1 className='h1' style={{color: '#fff', marginTop: '20vh', fontFamily: 'Arial', fontSize:'96px'}}>
                 LOCAL POCKET
@@ -144,9 +145,11 @@ function HomeDesktop() {
             <ParallaxLayer 
             className={styles.section1}
             speed={0.5}
+           
+            
             >
                 <img
-                src="mybusiness1.png"
+                src="/mybusiness1.png"
                 alt=""
                 objectFit='contain'
                 className={styles.section1Image}
@@ -175,7 +178,7 @@ function HomeDesktop() {
                     </animated.h1>
                 </ParallaxLayer>
                 <ParallaxLayer
-                offset={offsetS2+0.45}
+                offset={offsetS2+0.5}
                 speed={-0.3}
                 className={styles.section2}
                 >
@@ -187,7 +190,7 @@ function HomeDesktop() {
                     </animated.h1>
                 </ParallaxLayer>
                 <ParallaxLayer
-                offset={offsetS2+0.60}
+                offset={offsetS2+0.7}
                 speed={-0.3}
                 className={styles.section2}
                 >
@@ -200,11 +203,11 @@ function HomeDesktop() {
                 </ParallaxLayer>
 
                 <ParallaxLayer
-                offset={offsetS2+1.03}
+                offset={offsetS2+1.27}
                 speed={-0.25}
                 className={styles.section2}
                 >
-                    <br></br> <br></br>
+                   
                     <h2 className='h2' style={{textAlign: 'center', color: '#fff'}}>
                         Gettings started only takes 3 simple steps!
                     </h2>
@@ -212,18 +215,11 @@ function HomeDesktop() {
                     <h4 className='h4' style={{width: '60vw', marginTop: '1vh', textAlign: 'center', color: '#fff'}}>
                         Local Pocket enables you to discover local businesses and access exclusive discounts in store for FREE.
                     </h4>
-                </ParallaxLayer>
-
-                {/* SECTION 2 - LEFT SQUARE */}
-                <ParallaxLayer
-                offset={offsetS2+1.25}
-                speed={-0.2}
-                style={{display: 'flex', justifyContent: 'center'}}
-                >
-                    <div style={{ width: '1300px', maxWidth: '1300px' }}>
-
+                    <br></br><br></br>
+                    <Row>
+                        <Col>
                         <div className={styles.section2Square}>
-                            <svg height='14vh' viewBox="0 0 257 224" preserveAspectRatio="xMidYMid slice">
+                            <svg height='9vh' viewBox="0 0 257 224" preserveAspectRatio="xMidYMid slice">
                                 <g clipPath="url(#clip0_591_291)">
                                 <path d="M239.498 223.746V199.479C239.498 199.479 248.961 216.683 239.498 223.746Z" fill="#F1F1F1"/>
                                 <path d="M240.082 223.741L222.193 207.33C222.193 207.33 241.275 211.998 240.082 223.741Z" fill="#F1F1F1"/>
@@ -256,25 +252,14 @@ function HomeDesktop() {
                                 Download the Local<br/>Pocket app
                             </h3>
 
-                            <h4 className='h4' style={{marginTop: '3vh', color: '#fff'}}>
+                            <h4 className='h5' style={{marginTop: '3vh',textAlign: 'center', color: '#fff'}}>
                                 Open the App store or Google Play, search for Local Pocket and download the app. Open the app and log in or create an account to get started
                             </h4>
                         </div>
-
-                    </div>
-                </ParallaxLayer>
-
-                {/* SECTION 2 - MIDDLE SQUARE */}
-                <ParallaxLayer
-                offset={offsetS2}
-                speed={0}
-                style={{display: 'flex', justifyContent: 'center', marginTop: '88vh'}}
-                >
-                    
-                    <div style={{ display: 'flex', justifyContent: 'center', width: '1300px', maxWidth: '1300px' }}>
-
+                        </Col>
+                        <Col>
                         <div className={styles.section2Square}>
-                            <svg height='14vh' viewBox="0 0 218 193" preserveAspectRatio="xMidYMid slice">
+                            <svg height='9vh' viewBox="0 0 218 193" preserveAspectRatio="xMidYMid slice">
                                 <g clipPath="url(#clip0_591_311)">
                                 <path d="M189.924 186.015V166.89C189.924 166.89 197.32 180.449 189.924 186.015Z" fill="#F1F1F1"/>
                                 <path d="M190.38 186.012L176.4 173.078C176.4 173.078 191.313 176.757 190.38 186.012Z" fill="#F1F1F1"/>
@@ -332,23 +317,13 @@ function HomeDesktop() {
                                 Browse your local<br/>promotions
                             </h3>
 
-                            <h4 className='h4' style={{marginTop: '3vh', color: '#fff'}}>
+                            <h4 className='h5' style={{marginTop: '3vh', textAlign: 'center', color: '#fff'}}>
                                 Discover businesses available near you with our map view. Alternatively search for a product or service to view your local promotions
                             </h4>
                         </div>
 
-                    </div>
-                </ParallaxLayer>
-
-                {/* SECTION 2 - RIGHT SQUARE */}
-                <ParallaxLayer
-                offset={offsetS2}
-                speed={0.2}
-                style={{display: 'flex', justifyContent: 'center', marginTop: '106vh'}}
-                >
-                    
-                    <div style={{ display: 'flex', justifyContent: 'flex-end', width: '1300px', maxWidth: '1300px' }}>
-
+                        </Col>
+                        <Col>
                         <div className={styles.section2Square}>
                             <svg height='9vh' viewBox="0 0 210 248" preserveAspectRatio="xMidYMid slice">
                                 <g clipPath="url(#clip0_591_356)">
@@ -383,13 +358,19 @@ function HomeDesktop() {
                                 Use your promotional<br/>QR code in store
                             </h3>
 
-                            <h4 className='h4' style={{marginTop: '3vh', color: '#fff'}}>
+                            <h4 className='h5' style={{marginTop: '3vh',textAlign: 'center', color: '#fff'}}>
                                 Scan or display the QR code at checkout in store to recieve your discount - it's that easy!
                             </h4>
                         </div>
 
-                    </div>
+                        </Col>
+                        </Row>
+                   
                 </ParallaxLayer>
+
+                {/* SECTION 2 - LEFT SQUARE */}
+                
+                
 
                 {/* ----------- SECTION 4 - PINS -----------*/}
                 <ParallaxLayer
@@ -681,7 +662,7 @@ function HomeDesktop() {
 
                 {/* SECTION 4 - L */}
                 <ParallaxLayer
-                offset={offsetS4}
+                offset={offsetS4+0.3}
                 factor={sizeS4}
                 className={styles.section4}
                 style={{display: 'flex', justifyContent: 'center'}}
@@ -699,7 +680,7 @@ function HomeDesktop() {
 
                 {/* SECTION 4 - IMAGE */}
                 <ParallaxLayer
-                offset={offsetS4}
+                offset={offsetS4+0.3}
                 factor={sizeS4}
                 speed={0.15}
                 className={styles.section4}
@@ -709,7 +690,7 @@ function HomeDesktop() {
                     <div style={{ display: 'flex', justifyContent: 'center', width: '1300px', maxWidth: '1300px' }}>
 
                         <animated.img
-                        src="image2.png"
+                        src="/image2.png"
                         alt="Screenshot of..."
                         resize='contain'
                         className={styles.section4Image}
@@ -733,10 +714,10 @@ function HomeDesktop() {
 
                         <animated.div className={styles.section4Text} style={expandCircle2}>
                             <h3 className='h3' style={{color: '#fff', textAlign: 'center', marginBottom: '3vh'}}>
-                                Use your promotional<br/>QR code in store
+                                Use your promotional QR code in store
                             </h3>
 
-                            <h4 className='h4' style={{color: '#fff', textAlign: 'center', marginBottom: '5vh'}}>
+                            <h4 className='h5' style={{color: '#fff', textAlign: 'center', marginBottom: '5vh'}}>
                                 Scan or display the QR code at checkout in store to recieve your discount - it's that easy!
                             </h4>
 
@@ -771,10 +752,10 @@ function HomeDesktop() {
                         
                         <div className={styles.section5Text}>
                             <h3 className='h3' style={{color: '#fff', textAlign: 'center', marginBottom: '3vh'}}>
-                                Browse your local<br/>promotions
+                                Browse your local promotions
                             </h3>
 
-                            <h4 className='h4' style={{color: '#fff', textAlign: 'center', marginBottom: '5vh'}}>
+                            <h4 className='h5' style={{color: '#fff', textAlign: 'center', marginBottom: '5vh'}}>
                                 Discover businesses available near you with our map view. Alternatively search for a product or service to view your local promotions
                             </h4>
                             <motion.button
@@ -828,7 +809,7 @@ function HomeDesktop() {
 
                         
                         <img
-                        src="image3.png"
+                        src="/map.png"
                         alt="Screenshot of..."
                         resize='contain'
                         className={styles.section5Image}

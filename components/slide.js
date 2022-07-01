@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 import IndexNavBar from '../components/indexNavBar'
 // Styling.
 import slidestyles from '../styles/slide.module.css'
-import Image from 'next/image'
+
 import React, { useState, useEffect, useRef } from 'react'
 import DownloadModal from './downloadModal';
 function Slide() {
@@ -27,7 +27,7 @@ Local Council and business owners</p>
                 <Button className={slidestyles.slideButton}>Download Now</Button>
                 </Col>
                 <Col  xs={12} lg={6}>
-                <img  width="100%" height="100%" layout="responsive" objectFit="contain"
+                <img  width="100%" height="100%" layout="responsive" objectFit="cover"
         
                 src="/slide_image_right.png"
                 className={`${slidestyles.slideImage}  align-center`}

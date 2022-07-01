@@ -106,8 +106,8 @@
     }
     .slideButton {
         text-align: center;
-        margin-left: 10%;
-        margin-right: 10%;
+        /* margin-left: 10%;
+        margin-right: 10%; */
     }
     .slideColumn1 {
         display: flex;
@@ -117,7 +117,7 @@
         min-height: 400px;
     }
     .slideImage {
-        height: 535px;
+         height: 100%; 
         width: 100%;
     }
 }

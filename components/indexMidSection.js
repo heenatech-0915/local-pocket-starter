@@ -52,9 +52,9 @@ function IndexMidSection() {
             local  customers so that they can thrive in the local market.
           </p>
         </Row>
-        <br></br>
        
-        <Container className={`${ styles.valuesContainer} py-5`} fluid>
+       
+        <Container className={`${ styles.valuesContainer} `} fluid>
         <p className={styles.bodyheading2}>OUR VALUES </p><br></br>
           <Row  className={`${styles.valuesRow}  `}>
             <Col  xs={12} lg={4}>
@@ -102,16 +102,7 @@ their local customers</p><br></br>
           <p className={styles.serviceheading}>PRODUCT AND SERVICE</p>
           <br></br>
           <Row className={`${ styles.productServiceRow}  `}>
-            <Col  xs={12} lg={4}>
-              <img
-                src="/service1.svg"
-                className="d-inline-block align-center"
-                alt="Customer-insights"
-              />
-              <br></br><br></br>
-              <p className={styles.servicebodytext}>Our service offering is an online loyalty scheme aimed specifically at local markets, connecting local businesses with local customers.</p>
-            </Col>
-            <Col  xs={12} lg={4}>
+          <Col  xs={12} lg={4}>
               <img
                 src="/service2.svg"
                 className="d-inline-block align-center"
@@ -121,6 +112,16 @@ their local customers</p><br></br>
               <p className={styles.servicebodytext}>Customers utilising Local Pocket will be able to take advantage of discounts on products and services from businesses in their local area. The customer will be able to search specifically using GPS on their mobile phone to find local businesses offering discounts on their products and services.</p><br></br>
             
             </Col>
+            <Col  xs={12} lg={4}>
+              <img
+                src="/service1.svg"
+                className="d-inline-block align-center"
+                alt="Customer-insights"
+              />
+              <br></br><br></br>
+              <p className={styles.servicebodytext}>Our service offering is an online loyalty scheme aimed specifically at local markets, connecting local businesses with local customers.</p>
+            </Col>
+            
             <Col  xs={12} lg={4}>
               <img
                 src="/service3.svg"

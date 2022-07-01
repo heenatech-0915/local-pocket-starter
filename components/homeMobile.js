@@ -140,7 +140,7 @@ function HomeMobile() {
             {/* SECTION 1 - IMAGES*/}
             <ParallaxLayer>
                 <img
-                src="mybusiness1.png"
+                src="/mybusiness1.png"
                 alt=""
                 objectFit='contain'
                 className={styles.section1Image}
@@ -652,7 +652,7 @@ function HomeMobile() {
             style={{justifyContent: 'center'}}
             >
                 <animated.img
-                src="image2.png"
+                src="/image2.png"
                 alt="Screenshot of..."
                 resize='contain'
                 className={styles.section5Image}
@@ -669,7 +669,7 @@ function HomeMobile() {
             style={{justifyContent: 'center', zIndex: 2}}
             >
                 <img
-                src="image3.png"
+                src="/image3.png"
                 alt="Screenshot of..."
                 resize='contain'
                 className={styles.section6Image}

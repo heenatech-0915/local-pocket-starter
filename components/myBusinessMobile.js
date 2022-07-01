@@ -87,7 +87,7 @@ function MyBusinessMobile() {
             {/* SECTION 1 - IMAGES*/}
             <ParallaxLayer>
                 <img
-                src="mybusiness1.png"
+                src="/mybusiness1.png"
                 alt=""
                 objectFit='contain'
                 className={styles.section1Image}
@@ -146,7 +146,7 @@ function MyBusinessMobile() {
             style={{justifyContent: 'center'}}
             >
                 <img
-                src="businessPhoto1.png"
+                src="/businessPhoto1.png"
                 alt="Screenshot of..."
                 resize='contain'
                 className={styles.section2Image}
@@ -162,7 +162,7 @@ function MyBusinessMobile() {
             style={{justifyContent: 'center', zIndex: 2}}
             >
                 <img
-                src="businessPhoto2.png"
+                src="/businessPhoto2.png"
                 alt="Screenshot of..."
                 resize='contain'
                 className={styles.section3Image}
