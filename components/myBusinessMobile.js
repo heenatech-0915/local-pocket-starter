@@ -67,7 +67,7 @@ function MyBusinessMobile() {
             {/* SECTION 1 - TEXT*/}
             <ParallaxLayer
             className={styles.section1}
-            speed={-0.5}
+            
             >
                 <h1 className='h1' style={{color: '#fff', marginTop: '12vh', fontFamily: 'Arial'}}>
                     WELCOME.
@@ -146,7 +146,7 @@ function MyBusinessMobile() {
             style={{justifyContent: 'center'}}
             >
                 <img
-                src="/businessPhoto1.png"
+                src="/promotion.png"
                 alt="Screenshot of..."
                 resize='contain'
                 className={styles.section2Image}
@@ -162,7 +162,7 @@ function MyBusinessMobile() {
             style={{justifyContent: 'center', zIndex: 2}}
             >
                 <img
-                src="/businessPhoto2.png"
+                src="/account.png"
                 alt="Screenshot of..."
                 resize='contain'
                 className={styles.section3Image}

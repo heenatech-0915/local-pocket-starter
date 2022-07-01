@@ -137,7 +137,7 @@ function MyBusinessDesktop() {
                 <div style={{ display: 'flex', justifyContent: 'center', width: '1300px', maxWidth: '1300px' }}>
 
                     <img
-                    src="/businessPhoto1.png"
+                    src="/promotion.png"
                     alt="Screenshot of..."
                     resize='contain'
                     className={styles.section2Image}
@@ -186,7 +186,7 @@ function MyBusinessDesktop() {
 
             {/* SECTION 3 - TEXT */}
             <ParallaxLayer
-            offset={offsetS3}
+            offset={offsetS3+0.1}
             factor={sizeS3}
             speed={-0.4}
             className={styles.section3}
@@ -253,7 +253,7 @@ function MyBusinessDesktop() {
                 <div style={{ display: 'flex', justifyContent: 'center', width: '1300px', maxWidth: '1300px' }}>
                     
                     <img
-                    src="/businessPhoto2.png"
+                    src="/account.png"
                     alt="Screenshot of..."
                     resize='contain'
                     className={styles.section3Image}

@@ -120,7 +120,7 @@ function HomeMobile() {
             {/* SECTION 1 - TEXT*/}
             <ParallaxLayer
             className={styles.section1}
-            speed={-0.5}
+            
             >
                 <h1 className='h1' style={{color: '#fff', marginTop: '12vh', fontFamily: 'Arial'}}>
                 LOCAL POCKET
@@ -264,7 +264,7 @@ function HomeMobile() {
                         Download the Local<br/>Pocket app
                     </h3>
 
-                    <h4 className='h4' style={{marginTop: '2vh', color: '#fff'}}>
+                    <h4 className='h5' style={{marginTop: '2vh', color: '#fff'}}>
                         Open the App store or Google Play, search for Local Pocket and download the app. Open the app and log in or create an account to get started
                     </h4>
                 </div>
@@ -335,7 +335,7 @@ function HomeMobile() {
                         Browse your local<br/>promotions
                     </h3>
 
-                    <h4 className='h4' style={{marginTop: '2vh', color: '#fff'}}>
+                    <h4 className='h5' style={{marginTop: '2vh', color: '#fff'}}>
                         Discover businesses available near you with our map view. Alternatively search for a product or service to view your local promotions
                     </h4>
                 </div>
@@ -381,7 +381,7 @@ function HomeMobile() {
                         Use your promotional<br/>QR code in store
                     </h3>
 
-                    <h4 className='h4' style={{marginTop: '2vh', color: '#fff'}}>
+                    <h4 className='h5' style={{marginTop: '2vh', color: '#fff'}}>
                         Scan or display the QR code at checkout in store to recieve your discount - it's that easy!
                     </h4>
                 </div>
@@ -652,7 +652,7 @@ function HomeMobile() {
             style={{justifyContent: 'center'}}
             >
                 <animated.img
-                src="/image2.png"
+                src="/deal.png"
                 alt="Screenshot of..."
                 resize='contain'
                 className={styles.section5Image}
@@ -669,7 +669,7 @@ function HomeMobile() {
             style={{justifyContent: 'center', zIndex: 2}}
             >
                 <img
-                src="/image3.png"
+                src="/map.png"
                 alt="Screenshot of..."
                 resize='contain'
                 className={styles.section6Image}

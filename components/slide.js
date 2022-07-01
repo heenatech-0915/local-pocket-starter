@@ -24,7 +24,7 @@ function Slide() {
                 <p  className={slidestyles.subheading}>SAVE AND <br></br>SUPPORT LOCAL</p>
                 <p className={slidestyles.bodytext}>The need for high streets to regenerate helping communities,
 Local Council and business owners</p>
-                <Button className={slidestyles.slideButton}>Download Now</Button>
+                <Button  onClick={() => setShow(true)} className={slidestyles.slideButton}>Download Now</Button>
                 </Col>
                 <Col  xs={12} lg={6}>
                 <img  width="100%" height="100%" layout="responsive" objectFit="cover"

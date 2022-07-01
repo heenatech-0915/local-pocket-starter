@@ -689,7 +689,7 @@ function HomeDesktop() {
                     <div style={{ display: 'flex', justifyContent: 'center', width: '1300px', maxWidth: '1300px' }}>
 
                         <animated.img
-                        src="/image2.png"
+                        src="/deal.png"
                         alt="Screenshot of..."
                         resize='contain'
                         className={styles.section4Image}
