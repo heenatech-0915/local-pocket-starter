@@ -70,7 +70,7 @@
 .cardstyle1 {
     background: linear-gradient(124.84deg, #4cb9c4 -2.7%, #3dd3ae 103.78%);
     border-radius: 8px;
-    min-height: 369px;
+    min-height: 370px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -193,6 +193,11 @@
 }
 
 @media only screen and (max-width: 786px) {
+    .visioncontainer {
+        padding-left:1.5rem !important;
+        padding-right:1.5rem !important;
+        
+    }
     .servicebodytext {
         padding-left: 0px;
         padding-right: 0px;

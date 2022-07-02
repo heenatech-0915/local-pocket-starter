@@ -159,7 +159,7 @@ function MyBusinessMobile() {
             factor={sizeS3}
             speed={-0.2}
             className={styles.section3}
-            style={{justifyContent: 'center', zIndex: 2}}
+            style={{justifyContent: 'left', zIndex: 2}}
             >
                 <img
                 src="/account.png"

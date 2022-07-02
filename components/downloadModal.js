@@ -45,7 +45,7 @@ fetch('http://localhost:3000/api/contact', {
     return (
         
         
-        <Modal className="px-5 py-5"
+        <Modal className="px-2 py-2"
         show={showModal}
         onHide={handleClose}
         backdrop="static"

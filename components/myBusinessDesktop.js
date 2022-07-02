@@ -8,6 +8,8 @@ import Footer from '../components/footerDesktop'
 import styles from '../styles/mybusiness_desktop.module.css'
 import IndexNavBar from './indexNavBar'
 import DownloadModal from './downloadModal';
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 function MyBusinessDesktop() {
     const parallaxRef = useRef();
@@ -73,9 +75,11 @@ function MyBusinessDesktop() {
             {/* SECTION 1 - TEXT*/}
             <ParallaxLayer
             className={styles.section1}
-            speed={-0.5}
+            
             >
-                <h1 className='h1' style={{color: '#fff', marginTop: '20vh', fontFamily: 'Arial', fontSize:'96px'}}>
+                <Row>
+                    <Col xs={12}  lg={6} md={6} sm={6}>
+                    <h1 className='h1' style={{color: '#fff', marginTop: '20vh', fontFamily: 'Arial', fontSize:'96px'}}>
                     WELCOME.
                 </h1>
 
@@ -86,20 +90,20 @@ function MyBusinessDesktop() {
                 <h4 className='h4' style={{color: '#fff', marginTop: '2vh', fontSize:'20px'}}>
                     Local Pocket helps ambitious businesses attract new and returning customers. Poviding powerful, flexible, easy to use systems for creating unique loyalty programs alonside your beautiful new digital presence with just your phone!
                 </h4>
-            </ParallaxLayer>
-
-            {/* SECTION 1 - IMAGES*/}
-            <ParallaxLayer
-            className={styles.section1}
-            speed={0.5}
-            >
-                <img
+                    </Col>
+                    <Col className={styles.section1Image} xs={12} lg={6} md={6} sm={6}>
+                    <img
                 src="/mybusiness1.png"
                 alt=""
                 objectFit='contain'
-                className={styles.section1Image}
+                
                 />
+                    </Col>
+                    </Row>
+                
             </ParallaxLayer>
+
+            
 
             {/* SECTION 2 & 3 BACKGROUND */}
             <ParallaxLayer
@@ -117,7 +121,7 @@ function MyBusinessDesktop() {
             className={styles.section2}
             style={{display: 'flex', justifyContent: 'center'}}
             >
-                <div style={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'flex-end', width: '1300px', maxWidth: '1300px' }}>
+                <div style={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'flex-end', width: '1500px', maxWidth: '1500px' }}>
 
                     <div className={styles.vertical} />
 
@@ -134,7 +138,7 @@ function MyBusinessDesktop() {
             className={styles.section2}
             style={{display: 'flex', justifyContent: 'center'}}
             >
-                <div style={{ display: 'flex', justifyContent: 'center', width: '1300px', maxWidth: '1300px' }}>
+                <div style={{ display: 'flex', justifyContent: 'center', width: '1500px', maxWidth: '1500px' }}>
 
                     <img
                     src="/promotion.png"
@@ -155,7 +159,7 @@ function MyBusinessDesktop() {
             style={{display: 'flex', justifyContent: 'center'}}
             >
         
-                <div style={{ display: 'flex', justifyContent: 'flex-end', width: '1300px', maxWidth: '1300px' }}>
+                <div style={{ display: 'flex', justifyContent: 'flex-end', width: '1500px', maxWidth: '1500px' }}>
                     
                     <div className={styles.section2Text}>
                         <h3 className='h3' style={{color: '#fff', textAlign: 'center', marginBottom: '3vh'}}>
@@ -193,7 +197,7 @@ function MyBusinessDesktop() {
             style={{display: 'flex', justifyContent: 'center', zIndex: 3}}
             >
         
-                <div style={{ display: 'flex', justifyContent: 'flex-start', width: '1300px', maxWidth: '1300px' }}>
+                <div style={{ display: 'flex', justifyContent: 'flex-start', width: '1500px', maxWidth: '1500px' }}>
                     
                     <div className={styles.section3Text}>
                         <h3 className='h3' style={{color: '#fff', textAlign: 'center', marginBottom: '3vh'}}>
@@ -230,7 +234,7 @@ function MyBusinessDesktop() {
             style={{display: 'flex', justifyContent: 'center'}}
             >
 
-                <div style={{ display: 'flex', justifyContent: 'flex-end', width: '1300px', maxWidth: '1300px' }}>
+                <div style={{ display: 'flex', justifyContent: 'flex-end', width: '1500px', maxWidth: '1500px' }}>
                     
                     <div className={styles.verticalP} />
 
@@ -250,7 +254,7 @@ function MyBusinessDesktop() {
             style={{display: 'flex', justifyContent: 'center', zIndex: 2}}
             >
         
-                <div style={{ display: 'flex', justifyContent: 'center', width: '1300px', maxWidth: '1300px' }}>
+                <div style={{ display: 'flex', justifyContent: 'center', width: '1500px', maxWidth: '1500px' }}>
                     
                     <img
                     src="/account.png"

@@ -16,9 +16,9 @@ function Slide() {
         <>
         <DownloadModal showModal={show}  handleClose={handleClose}/>
         
-        <Container className={`${slidestyles.container} px-5`} fluid >
+        <Container className={`${slidestyles.container} px-5 py-5`} fluid >
             
-            <Row >
+            <Row className={slidestyles.sliderow} >
                 <Col className={`${slidestyles.slideColumn1} `} xs={12} lg={6} >
                 <p className={slidestyles.heading}>LOCAL POCKET</p>
                 <p  className={slidestyles.subheading}>SAVE AND <br></br>SUPPORT LOCAL</p>
